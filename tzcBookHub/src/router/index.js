@@ -7,17 +7,17 @@ const router = createRouter({
     {
       path: '/PhoneHomeView',
       name: 'PhoneHomeView',
-      component: () => import('../views/PhoneHomeView.vue')
+      component: () => import('../views/phoneViews/PhoneHomeView.vue')
     },
     {
       path: '/PCHomeView',
       name: 'PCHomeView',
-      component: () => import('../views/PCHomeView.vue')
+      component: () => import('../views/pcViews/PCHomeView.vue')
     },
     {
       path: '/PhoneSignInView',
       name: 'PhoneSignInView',
-      component: () => import('../views/SignInAbout/PhoneSignInView.vue')
+      component: () => import('@/views/phoneViews/signInAbout/PhoneSignInView.vue')
     }
   ]
 })
