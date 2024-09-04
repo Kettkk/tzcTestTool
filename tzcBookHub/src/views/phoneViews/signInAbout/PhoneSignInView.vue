@@ -24,6 +24,7 @@ const togglePasswordVisibility = () => {
             placeholder="手机号"
             v-model="phoneNumber"
             id="customInput"
+            style="margin-bottom: 32px"
         />
         <div id="passwordContainer">
           <input
@@ -89,7 +90,7 @@ const togglePasswordVisibility = () => {
 
 #customInput {
   width: 90%;
-  height: 30px;
+  height: 12px;
   padding: 10px;
   border-radius: 8px;
   background-color: rgb(251,239,218); /* 背景色 */

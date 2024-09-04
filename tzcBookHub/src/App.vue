@@ -32,7 +32,6 @@ onMounted(() => {
 
 <template>
   <div id="pageContainer">
-    <!-- 单一的 router-view 用于展示路由组件 -->
     <router-view />
   </div>
 </template>
