@@ -64,6 +64,24 @@ const togglePasswordVisibility = () => {
 
           </button>
         </div>
+
+      </div>
+
+      <div>
+        <div id="LoginBtn">
+          登录
+        </div>
+
+        <div id="otherText">或尝试</div>
+
+        <div id="LoginBtn">
+          微信登录
+        </div>
+
+        <div id="LoginBtn">
+          注册新账号
+        </div>
+
       </div>
     </div>
   </div>
@@ -120,5 +138,26 @@ const togglePasswordVisibility = () => {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+#LoginBtn {
+  width: 90%;
+  height: 30px;
+  background-color: rgb(233,168,69);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 5%;
+  margin-top: 4%;
+  font-size: 12px;
+}
+#otherText{
+  color: rgb(152, 130, 97);
+  font-size: 15px;
+  margin-left: 6%;
+  margin-top: 2%;
 }
 </style>
