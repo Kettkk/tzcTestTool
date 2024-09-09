@@ -18,6 +18,11 @@ const router = createRouter({
       path: '/PhoneSignInView',
       name: 'PhoneSignInView',
       component: () => import('@/views/phoneViews/signInAbout/PhoneSignInView.vue')
+    },
+    {
+      path: '/phoneClientView',
+      name: 'PhoneClientView',
+      component: () => import('@/views/phoneViews/ClientHomeView.vue')
     }
   ]
 })

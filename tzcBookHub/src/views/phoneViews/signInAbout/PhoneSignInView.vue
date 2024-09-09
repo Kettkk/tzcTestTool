@@ -1,12 +1,16 @@
-<script lang="ts" setup>
+<script setup>
 import { ref } from 'vue';
-
+import router from "@/router/index.js";
 const phoneNumber = ref('');
 const password = ref('');
 const showPassword = ref(false);
 
 const togglePasswordVisibility = () => {
   showPassword.value = !showPassword.value;
+};
+
+const go2ClientHomeView = () => {
+  router.push('/phoneClientView');
 };
 </script>
 
@@ -68,7 +72,7 @@ const togglePasswordVisibility = () => {
       </div>
 
       <div>
-        <div id="LoginBtn">
+        <div id="LoginBtn" @click="go2ClientHomeView">
           登录
         </div>
 
