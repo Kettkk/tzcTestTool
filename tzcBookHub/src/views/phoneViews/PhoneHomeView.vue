@@ -2,7 +2,7 @@
 import router from "@/router/index.js";
 const go2SignIn = () => {
   console.log("go2SignIn");
-  router.push("/PhoneSignInView");
+  router.push("/phoneSignInView");
 };
 
 </script>

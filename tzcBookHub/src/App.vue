@@ -11,9 +11,9 @@ const checkDevice = () => {
 
 const navigateBasedOnDevice = () => {
   if (isMobile.value) {
-    router.push('/PhoneHomeView'); // 手机端视图路由
+    router.push('/phoneHomeView'); // 手机端视图路由
   } else {
-    router.push('/PCHomeView'); // PC端视图路由
+    router.push('/pcHomeView'); // PC端视图路由
   }
 };
 

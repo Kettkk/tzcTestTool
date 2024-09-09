@@ -1,5 +1,12 @@
 <script setup>
+import router from "@/router/index.js";
 
+const go2Setting = () => {
+    router.push({name: 'phoneSettingsView'});
+}
+const go2Nav = () => {
+    router.push({name: 'phoneNavView'});
+}
 </script>
 
 <template>
@@ -10,7 +17,7 @@
                     巅峰对决
                 </div>
                 <div id="settingBtnContainer">
-                    <div id="settingBtn">
+                    <div id="settingBtn" @click="go2Setting">
                         <svg t="1725601015897" class="icon" viewBox="0 0 1024 1024" version="1.1"
                              xmlns="http://www.w3.org/2000/svg" p-id="4271"
                              width="23" height="23">
@@ -23,7 +30,7 @@
                         </svg>
                     </div>
 
-                    <div id="userInfoBtn">
+                    <div id="userInfoBtn" @click="go2Nav">
                         <svg t="1725601701720" class="icon" viewBox="0 0 1310 1024" version="1.1"
                              xmlns="http://www.w3.org/2000/svg" p-id="7019"
                              width="23" height="23">
