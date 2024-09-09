@@ -23,7 +23,6 @@ const name = ref("毛泽东思想概论");
 #mainContainer{
   height: 50%;
   width: 100%;
-  margin-top: 10%;
   //background-color: gray;
 }
 #cardsContainer{
